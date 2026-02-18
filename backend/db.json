@@ -1,0 +1,38 @@
+{
+  "employee": [
+    {
+      "firstname": "raja",
+      "middlename": "kumar",
+      "lastname": "Doe",
+      "dob": "2026-02-05",
+      "email": "Raja@gmail.com",
+      "maritalstatus": "Single",
+      "phoneno": "987654321",
+      "address": {
+        "street": "326/D lucknow",
+        "city": "lucknow",
+        "state": "Uttar Pradesh",
+        "country": "india",
+        "zipcode": "227202"
+      },
+      "id": "94ca"
+    },
+    {
+      "id": "0706",
+      "firstname": "john",
+      "middlename": "",
+      "lastname": "Doe",
+      "dob": "2026-02-01",
+      "email": "John@gmail.com",
+      "maritalstatus": "Married",
+      "phoneno": "987654321",
+      "address": {
+        "street": "new york ammerica",
+        "city": "New York",
+        "state": "united Kingdom",
+        "country": "uk",
+        "zipcode": "9946"
+      }
+    }
+  ]
+}

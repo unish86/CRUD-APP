@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*  NAVBAR-STYLES */
+.navbar-container {
+  height: 80px;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.logo{
+   font-weight: 900;
+   font-size: 30px;
+
+}
+
+.nav-links>a{
+ margin: 5px 10px;
+ font-weight: 600;
+ padding: 5px 10px;
+ border-radius: 4px;
+ transition: 0.2s;
+}
+
+.nav-links>a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*  Inner html Style  */
+/* Employee Card Styles */
+.emp-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.emp-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Header */
+.emp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.emp-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.emp-id {
+  font-size: 0.9rem;
+  color: #666;
+  background: #f0f0f0;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+/* Sections */
+.emp-info, .emp-contact, .emp-address {
+  margin-bottom: 12px;
+}
+
+.emp-info p, .emp-contact p, .emp-address p {
+  margin: 4px 0;
+  color: #444;
+}
+
+/* Buttons */
+.btn {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
